@@ -3,10 +3,10 @@ import pymysql
 from googletrans import Translator
 
 # db config
-host = "162.55.1.104"
-user = "domatk_challenge"
-password = "rdyrH2Li"
-database = "domatk_challenge"
+host = "####"
+user = "####"
+password = "####"
+database = "####"
 
 # mysql connection
 conn = pymysql.connect(host=host, port=3306, user=user, password=password, database=database)
