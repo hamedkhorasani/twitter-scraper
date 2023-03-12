@@ -18,10 +18,10 @@ from urllib.request import urlopen, HTTPError, URLError
 
 
 # db config
-host = "162.55.1.104"
-user = "domatk_challenge"
-password = "rdyrH2Li"
-database = "domatk_challenge"
+host = "####"
+user = "####"
+password = "####"
+database = "####"
 
 needLogin = True
 timeToOpenWebsite = 8
