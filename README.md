@@ -1,5 +1,5 @@
 ## Project Title:
-Twitter scraper
+Twitter scraper without API
 
 ## Project Description:
 The Twitter scraper project is divided into four stages for extracting tweets:
