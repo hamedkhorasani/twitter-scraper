@@ -1,18 +1,16 @@
-# twitter-scraper
-
-##Project Title:
+## Project Title:
 Twitter scraper
 
-##Project Description:
+## Project Description:
 The Twitter scraper project is divided into four stages for extracting tweets:
-In the first stage, we open the user's page and read the tweets from the Twitter API, and add them to the queue table in the database.
-In the second stage, we iterate over the queue and read each tweet and its level 0 replies, and add them to the tweets table in the database. Whenever a tweet with replies is added to the tweets table, we add it to the queue table as well.
+- In the first stage, we open the user's page and read the tweets from the Twitter API, and add them to the queue table in the database.
+- In the second stage, we iterate over the queue and read each tweet and its level 0 replies, and add them to the tweets table in the database. Whenever a tweet with replies is added to the tweets table, we add it to the queue table as well.
 Note: The first item of each tweet is the original tweet. From the second index onward, they are the replies to that tweet.
-In the third stage, we iterate over the queue again and extract nested replies and add them to the tweets table.
-In the fourth stage, we read each reply from the tweets table and calculate the sentiment analysis on each tweet.
+- In the third stage, we iterate over the queue again and extract nested replies and add them to the tweets table.
+- In the fourth stage, we read each reply from the tweets table and calculate the sentiment analysis on each tweet.
 
-##Requirements:
-###Install the following libraries:
+## Requirements:
+### Install the following libraries:
 ```
 textblob
 selenium
